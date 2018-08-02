@@ -1,0 +1,24 @@
+body {
+  font-family: $ff-main;
+  font-size: 1rem;
+  line-height: 1.2;
+  background-color: #ffffff;
+  background-image: linear-gradient(-178deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.container {
+  width: 1197px;
+  @include centerer-x();
+}
